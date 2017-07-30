@@ -17,7 +17,7 @@ $('#email').bind('blur focus', function(event){
             $this.addClass('email-good').removeClass('email-bad');
         }
         else{
-            $invalidEmailError.show().fadeOut(5000);
+            $invalidEmailError.show().fadeOut(7000);
             $submitButton.attr('disabled','disabled').addClass('disabled');
             $this.addClass('email-bad').removeClass('email-good');
         }
