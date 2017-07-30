@@ -511,10 +511,23 @@ fieldset[disabled] .btn-success.active {
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
+/* phone_number.js */
 #errmsg
 {
 color: red;
 }
+/* */
+/* email.js */
+.msg {
+    display: none;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+/* */
 div#maincontent {
   outline: none;
 }
