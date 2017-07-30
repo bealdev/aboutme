@@ -9,8 +9,4 @@ if (!re.test(email)) {
     $('.msg').hide();
     $('.error').hide();
 } 
-if empty(email) {
-    $('.msg').hide();
-    $('.error').hide();
-}
 });
