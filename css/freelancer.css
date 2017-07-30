@@ -518,14 +518,14 @@ color: red;
 }
 /* */
 /* email.js */
-.msg {
-    display: none;
+input[type="text"]{
+    border:1px solid grey;
 }
-.error {
-    color: red;
+input[type="text"].email-bad{
+    border:1px solid red;
 }
-.success {
-    color: green;
+input[type="text"].email-good{
+    border:1px solid green;
 }
 /* */
 div#maincontent {
