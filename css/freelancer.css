@@ -511,6 +511,10 @@ fieldset[disabled] .btn-success.active {
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
+#errmsg
+{
+color: red;
+}
 div#maincontent {
   outline: none;
 }
